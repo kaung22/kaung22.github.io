@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>String Lesson</h1>
+    <script>
+        // String 
+        let firstName = "Hein";
+        let lastName = "Min Htet";
+        console.log(typeof(firstName))
+        console.log(typeof(lastName))
+        console.log(firstName.length)
+        console.log(lastName.length)
+
+        let fullName = firstName.concat (" ",lastName)
+        console.log(fullName)
+        console.log('My Name is '+fullName)
+        console.log(`My name is ${fullName}`) 
+        console.log(fullName[6]);
+        console.log(fullName.toUpperCase())
+        console.log(fullName.toLowerCase())
+        console.log(fullName.substr(5,3))
+
+        let rep = 'I want to visit Yangon'
+        let rep_result = rep.replace('Yangon' , 'Mandalay')
+        console.log(rep_result)
+
+        let money = '1,000,000'
+        money = money.replace(/\,/g,'')
+        console.log(typeof(money))
+        money = Number(money)
+        console.log(typeof(money))
+    
+
+    </script>
+
+
+</body>
+</html>
