@@ -13,13 +13,13 @@
     <input type="text" name="name" id="name">
     <br><br>
     <label for="html">HTML</label>
-    <input type="text" name="html" id="html">
+    <input type="number" name="html" id="html">
     <br><br>
     <label for="css">CSS</label>
-    <input type="text" name="css" id="css">
+    <input type="number" name="css" id="css">
     <br><br>
     <label for="JavaScript">JavaScript</label>
-    <input type="text" name="js" id="js">
+    <input type="number" name="js" id="js">
     <br><br>
     <button type="button" onclick="result()">Result</button>
 </form>
@@ -36,9 +36,9 @@
     console.log(js);
 
     if (html >= 50 && css >=50 && js >=50) {
-        document.write('<h1>'+name+' is Pass.</h1>');
+        document.write('<h1>'+name+'is Pass.</h1>');
     }else {
-        document.write('<h1>'+name+' is Fail!!!</h1>');
+        document.write('<h1>'+name+'is Fail!!!</h1>');
     }
 }
 </script>
