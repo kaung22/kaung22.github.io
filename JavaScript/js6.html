@@ -42,6 +42,20 @@
         console.log(fruits)
 
         let fruits_str = fruits.toString();
+        console.log(fruits_str);
+        console.log(typeof(fruits_str));
+
+        fruits = fruits_str.split(',');
+        console.log(fruits);
+        console.log(typeof(fruits));
+
+        let arr_a = [1,2,3];
+        let arr_b = ['a','b','c'];
+        let arr_c = arr_a.concat(arr_b);
+        console.log(arr_c);
+
+        let arr_d = [...arr_a,...arr_b,...arr_c];
+        console.log(arr_d);
         
     </script>
 </body>
